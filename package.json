@@ -1,0 +1,91 @@
+{
+  "name": "vscode-web-developer-experience",
+  "version": "1.0.0",
+  "publisher": "SeyyedKhandon",
+  "author": "SeyyedMahdiHassanpour",
+  "displayName": "Web Developer Exprience Pack",
+  "description": "A collection/pack of extensions for Web Developers in VS Code",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#47B784",
+    "theme": "dark"
+  },
+  "icon": "logo.jpg",
+  "repository": {
+    "url": "https://github.com/SeyyedKhandon/vscode-web-developer-experience.git"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/vscode-web-developer-experience.git",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/vscode-web-developer-experience.git/issues"
+  },
+  "keywords": [
+    "web",
+    "developer exprience",
+    "web dx",
+    "web dx extension pack"
+  ],
+  "categories": [
+    "Extension Packs"
+  ],
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "extensionPack": [
+    "aaron-bond.better-comments",
+    "adisreyaj.sonarqube-status",
+    "akamud.vscode-theme-onedark",
+    "alexeyvax.vscode-open-native-terminal",
+    "axetroy.vscode-static-server",
+    "bengreenier.vscode-node-readme",
+    "bierner.color-info",
+    "ChakrounAnas.turbo-console-log",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "codezombiech.gitignore",
+    "CoenraadS.bracket-pair-colorizer",
+    "dbaeumer.vscode-eslint",
+    "dennisvhest.npm-browser",
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "eg2.vscode-npm-script",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "huizhou.githd",
+    "kisstkondoros.vscode-codemetrics",
+    "kisstkondoros.vscode-gutter-preview",
+    "L13RARY.l13-diff",
+    "Mcbai.vscode-vuex-peek",
+    "mhutchie.git-graph",
+    "miclo.sort-typescript-imports",
+    "mikestead.dotenv",
+    "mkaufman.HTMLHint",
+    "mrmlnc.vscode-scss",
+    "ms-azuretools.vscode-docker",
+    "nicoespeon.abracadabra",
+    "octref.vetur",
+    "PKief.material-icon-theme",
+    "pomber.git-file-history",
+    "pranaygp.vscode-css-peek",
+    "pucelle.vscode-css-navigation",
+    "quicktype.quicktype",
+    "ritwickdey.LiveServer",
+    "ryu1kn.partial-diff",
+    "sburg.vscode-javascript-booster",
+    "sdras.night-owl",
+    "sdras.vue-vscode-snippets",
+    "Shan.code-settings-sync",
+    "shd101wyy.markdown-preview-enhanced",
+    "suming.react-proptypes-generate",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "Tyriar.sort-lines",
+    "unional.vscode-sort-package-json",
+    "usernamehw.errorlens",
+    "uyiosa-enabulele.reopenclosedtab",
+    "vivaxy.vscode-conventional-commits",
+    "wix.vscode-import-cost",
+    "xyz.local-history",
+    "zengxingxin.sort-js-object-keys"
+  ]
+}
