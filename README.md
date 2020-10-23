@@ -127,5 +127,6 @@ These are some of my favorite extensions to make web development easier.
 ## Relevant Links
 
 - [Github](https://github.com/SeyyedKhandon/vscode-web-developer-experience)
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=SeyyedKhandon.vscode-web-developer-experience)
 
 **Enjoy!**
