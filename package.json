@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
-  "displayName": "Web Developer Exprience Pack",
+  "displayName": "Web Developer Experience Pack",
   "description": "A collection/pack of extensions for Web Developers in VS Code",
   "license": "MIT",
   "galleryBanner": {
@@ -20,9 +20,10 @@
   },
   "keywords": [
     "web",
-    "developer exprience",
+    "developer experience",
     "web dx",
-    "web dx extension pack"
+    "web dx extension pack",
+    "extension pack"
   ],
   "categories": [
     "Extension Packs"

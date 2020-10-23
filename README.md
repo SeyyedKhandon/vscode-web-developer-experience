@@ -1,4 +1,4 @@
-# Web Developer Exprience Pack 
+# Web Developer Experience Pack 
 
 ### vscode-web-developer-experience
 
