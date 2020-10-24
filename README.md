@@ -35,6 +35,8 @@ These are some of my favorite extensions to make web development easier.
   ]
 ```
 
+5. add `.history` to your `.gitignore`
+
 ##### FiraCode Font
 
 https://github.com/tonsky/FiraCode
