@@ -1,13 +1,56 @@
-# Web Developer Experience Pack 
+# Web Developer Experience Pack
 
 ### vscode-web-developer-experience
-
 
 A collection/pack of extensions for Web Developers in VS Code
 
 These are some of my favorite extensions to make web development easier.
 
+### Pre-defined settings which you maybe want to use:
+
+1. press `ctrl+shift+p`
+2. type `settings`
+3. click on `Prefrences: Open settings (JSON)` to open your settings.json file
+4. add these lines of settings:
+
+```json
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Atom One Dark",
+  "files.autoSave": "afterDelay",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": "",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 16,
+  "window.zoomLevel": 1,
+  "sync.gist": "70a5fe700fe4e46aebdf678a5c1db398",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "local-history.exclude": [
+    "**/.history/**",
+    "**/.vscode/**",
+    "**/node_modules/**",
+    "**/typings/**",
+    "**/out/**",
+    "**/Code/User/**"
+  ]
+```
+
+##### FiraCode Font
+
+https://github.com/tonsky/FiraCode
+
+1. download zip file [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)
+
+2. install `ttf` fonts in your OS
+3. add these two lines of settings to your vscode `settings.json` (which you did above)
+
+```json
+   "editor.fontFamily": "Fira Code",
+   "editor.fontLigatures": ""
+```
+
 ## Extensions Included
+
 - 1- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Improve your code commenting by annotating with alert, informational, TODOs, and more!
 
 - 2- [SonarQube Project Status](https://marketplace.visualstudio.com/items?itemName=adisreyaj.sonarqube-status) - Get the status of your project including the Build status, Static code analysis statuses and more...
@@ -121,8 +164,6 @@ These are some of my favorite extensions to make web development easier.
 - 56- [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) - Save files into local history
 
 - 57- [Sort JS object keys](https://marketplace.visualstudio.com/items?itemName=zengxingxin.sort-js-object-keys) - An extension to sort the js object keys
-
-
 
 ## Relevant Links
 
