@@ -1,6 +1,6 @@
 {
   "name": "vscode-web-developer-experience",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
   "displayName": "Web Developer Experience Pack",
@@ -74,7 +74,6 @@
     "ritwickdey.LiveServer",
     "ryu1kn.partial-diff",
     "sburg.vscode-javascript-booster",
-    "sdras.night-owl",
     "sdras.vue-vscode-snippets",
     "Shan.code-settings-sync",
     "shd101wyy.markdown-preview-enhanced",

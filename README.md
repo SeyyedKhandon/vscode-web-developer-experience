@@ -144,35 +144,31 @@ These are some of my favorite extensions to make web development easier.
 
 - 42- [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster) - Boost your productivity with advanced JavaScript/TypeScript refactorings and commands
 
-- 43- [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) - A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨
+- 43- [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) - Snippets that will supercharge your Vue workflow
 
-- 44- [Vue VS Code Extension Pack](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-extensionpack) - A collection of extensions for working with Vue Applications in VS Code
+- 44- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
 
-- 45- [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) - Snippets that will supercharge your Vue workflow
+- 45- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode
 
-- 46- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+- 46- [React PropTypes Generate](https://marketplace.visualstudio.com/items?itemName=suming.react-proptypes-generate) - Auto generate react's propTypes
 
-- 47- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode
+- 47- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
 
-- 48- [React PropTypes Generate](https://marketplace.visualstudio.com/items?itemName=suming.react-proptypes-generate) - Auto generate react's propTypes
+- 48- [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines) - Sorts lines of text
 
-- 49- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
+- 49- [Sort package.json](https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json) - Sort package.json
 
-- 50- [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines) - Sorts lines of text
+- 50- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
 
-- 51- [Sort package.json](https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json) - Sort package.json
+- 51- [Reopen Closed Tab](https://marketplace.visualstudio.com/items?itemName=uyiosa-enabulele.reopenclosedtab) - A very light-weight extension that simply adds the classic 'Reopen Closed Editor' item to the Title Tab menu
 
-- 52- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
+- 52- [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) - 💬Conventional Commits for VSCode.
 
-- 53- [Reopen Closed Tab](https://marketplace.visualstudio.com/items?itemName=uyiosa-enabulele.reopenclosedtab) - A very light-weight extension that simply adds the classic 'Reopen Closed Editor' item to the Title Tab menu
+- 53- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
 
-- 54- [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) - 💬Conventional Commits for VSCode.
+- 54- [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) - Save files into local history
 
-- 55- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
-
-- 56- [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) - Save files into local history
-
-- 57- [Sort JS object keys](https://marketplace.visualstudio.com/items?itemName=zengxingxin.sort-js-object-keys) - An extension to sort the js object keys
+- 55- [Sort JS object keys](https://marketplace.visualstudio.com/items?itemName=zengxingxin.sort-js-object-keys) - An extension to sort the js object keys
 
 ## Relevant Links
 
