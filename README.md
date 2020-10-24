@@ -35,16 +35,22 @@ These are some of my favorite extensions to make web development easier.
   ]
 ```
 
-5. add `.history` to your `.gitignore`
+5. add below lines to your `compilerOptions` in `tsconfig.json`:
 
-##### FiraCode Font
+```json
+  "baseUrl": ".",
+  "paths": {
+    "@/*": ["src/*"]
+  }
+```
 
-https://github.com/tonsky/FiraCode
+6. add `.history` to your `.gitignore`
 
-1. download zip file [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)
-
-2. install `ttf` fonts in your OS
-3. add these two lines of settings to your vscode `settings.json` (which you did above)
+7. `FiraCode Font` <img src="firacode.png" width="100"/> 
+   https://github.com/tonsky/FiraCode
+   7.1 download zip file [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)
+   7.2. install `ttf` fonts in your OS
+   7.3. add these two lines of settings to your vscode `settings.json` (which you did above)
 
 ```json
    "editor.fontFamily": "Fira Code",
