@@ -36,6 +36,7 @@ These are some of my favorite extensions to make web development easier.
 ```
 
 5. add below lines to your `compilerOptions` in `tsconfig.json`:
+   **Note** If you are using `tsnd` or what ever server which maybe cannt work with es module like `import {foo} from "@/fooModule";` or if you had problem like with this, you can skip this step.
 
 ```json
   "baseUrl": ".",
@@ -46,7 +47,7 @@ These are some of my favorite extensions to make web development easier.
 
 6. add `.history` to your `.gitignore`
 
-7. `FiraCode Font` <img src="firacode.png" width="100"/> 
+7. `FiraCode Font` <img src="https://raw.githubusercontent.com/SeyyedKhandon/vscode-web-developer-experience/main/firacode.png" width="100"/>
    https://github.com/tonsky/FiraCode
    7.1 download zip file [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)
    7.2. install `ttf` fonts in your OS
