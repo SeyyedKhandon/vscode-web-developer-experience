@@ -58,6 +58,17 @@ These are some of my favorite extensions to make web development easier.
    "editor.fontLigatures": ""
 ```
 
+8. `sync settings` Global Settings:
+   You may want to ignore some folder and files from being uploaded to your gist,
+   you can add them in extention's config file which are present in `syncLocalSettings.json` inside `User` folder. e.g. in windows: `C:\Users\you_user_name\AppData\Roaming\Code\User`, add `Users` to `ignoreUploadFolders` like below:
+
+```json
+ "ignoreUploadFolders": [
+    "workspaceStorage",
+    "Users"
+  ]
+```
+
 ## Extensions Included
 
 - 1- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments) - Improve your code commenting by annotating with alert, informational, TODOs, and more!
