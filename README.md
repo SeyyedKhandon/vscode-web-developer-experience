@@ -48,6 +48,7 @@ These are some of my favorite extensions to make web development easier.
 6. add `.history` to your `.gitignore`
 
 7. `FiraCode Font` <img src="https://raw.githubusercontent.com/SeyyedKhandon/vscode-web-developer-experience/main/firacode.png" width="100"/>
+
    https://github.com/tonsky/FiraCode
    7.1 download zip file [FiraCode](https://github.com/tonsky/FiraCode/releases/download/5.2/Fira_Code_v5.2.zip)
    7.2. install `ttf` fonts in your OS
@@ -57,6 +58,8 @@ These are some of my favorite extensions to make web development easier.
    "editor.fontFamily": "Fira Code",
    "editor.fontLigatures": ""
 ```
+
+**More Fonts** check this https://www.programmingfonts.org/#cascadia-code
 
 8. `sync settings` Global Settings:
    You may want to ignore some folder and files from being uploaded to your gist,
