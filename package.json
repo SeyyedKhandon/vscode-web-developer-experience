@@ -1,6 +1,6 @@
 {
   "name": "vscode-web-developer-experience",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
   "displayName": "Web Developer Experience Pack",
@@ -67,6 +67,7 @@
     "nicoespeon.abracadabra",
     "octref.vetur",
     "PKief.material-icon-theme",
+    "planbcoding.vscode-react-refactor",
     "pomber.git-file-history",
     "pranaygp.vscode-css-peek",
     "pucelle.vscode-css-navigation",
