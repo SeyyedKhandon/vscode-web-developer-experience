@@ -1,6 +1,6 @@
 {
   "name": "vscode-web-developer-experience",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
   "displayName": "Web Developer Experience Pack",
@@ -62,6 +62,7 @@
     "miclo.sort-typescript-imports",
     "mikestead.dotenv",
     "mkaufman.HTMLHint",
+    "mkloubert.vs-deploy",
     "mrmlnc.vscode-scss",
     "ms-azuretools.vscode-docker",
     "nicoespeon.abracadabra",
