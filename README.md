@@ -59,7 +59,7 @@ These are some of my favorite extensions to make web development easier.
    "editor.fontLigatures": ""
 ```
 
-**More Fonts** check this https://www.programmingfonts.org/#cascadia-code
+`More Fonts` check this https://www.programmingfonts.org/#cascadia-code
 
 8. `sync settings` Global Settings:
    You may want to ignore some folder and files from being uploaded to your gist,
@@ -70,6 +70,32 @@ These are some of my favorite extensions to make web development easier.
     "workspaceStorage",
     "Users"
   ]
+```
+
+9.`key bindings`
+As you may encounter shortcut-keys conflicts between extensions(e.g. bookmark, turboConsole, deploy has conflict on `ctrl+alt+l`). to avoid that, you can add these keybindings to your `keybindings.json` which is inside `C:\Users\you_user_name\AppData\Roaming\Code\User\keybindings.json`
+
+```json
+[
+  {
+    "key": "ctrl+shift+alt+l",
+    "command": "bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-bookmarks.jumpToNext",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+alt+k",
+    "command": "extension.deploy.listen"
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "-extension.deploy.listen"
+  }
+]
 ```
 
 **Extension usage hints**
@@ -168,53 +194,55 @@ Now you can rightclick on your file/folder and click `depoly` to safly deploy yo
 
 - 33- [Abracadabra, refactor this!](https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabra) - Automated refactorings for VS Code, in JavaScript and TypeScript.
 
-- 34- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Vue tooling for VS Code
+- 34- [Hocus Pocus](https://marketplace.visualstudio.com/items?itemName=nicoespeon.hocus-pocus) - Make useful things appear out of the void, in JavaScript and TypeScript.
 
-- 35- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - Material Design Icons for Visual Studio Code
+- 35- [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Vue tooling for VS Code
 
-- 36- [VSCode React Refactor](https://marketplace.visualstudio.com/items?itemName=planbcoding.vscode-react-refactor) - Recompose your overgrown JSX without worrying about the given data.
+- 36- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - Material Design Icons for Visual Studio Code
 
-- 37- [Git File History](https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history) - Modern, fast and intuitive tool for browsing the history and files in any git repository
+- 37- [VSCode React Refactor](https://marketplace.visualstudio.com/items?itemName=planbcoding.vscode-react-refactor) - Recompose your overgrown JSX without worrying about the given data.
 
-- 38- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) - Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition.
+- 38- [Git File History](https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history) - Modern, fast and intuitive tool for browsing the history and files in any git repository
 
-- 39- [CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation) - Allows Go to Definition from HTML to CSS; provides Completion and Workspace Symbols for class & id name; supports CSS, Sass, Less languages.
+- 39- [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek) - Allow peeking to css ID and class strings as definitions from html files to respective CSS. Allows peek and goto definition.
 
-- 40- [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) - Copy JSON, paste as Go, TypeScript, C#, C++ and more.
+- 40- [CSS Navigation](https://marketplace.visualstudio.com/items?itemName=pucelle.vscode-css-navigation) - Allows Go to Definition from HTML to CSS; provides Completion and Workspace Symbols for class & id name; supports CSS, Sass, Less languages.
 
-- 41- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Launch a development local Server with live reload feature for static & dynamic pages
+- 41- [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype) - Copy JSON, paste as Go, TypeScript, C#, C++ and more.
 
-- 42- [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff) - Compare (diff) text selections within a file, across files, or to the clipboard
+- 42- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) - Launch a development local Server with live reload feature for static & dynamic pages
 
-- 43- [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster) - Boost your productivity with advanced JavaScript/TypeScript refactorings and commands
+- 43- [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff) - Compare (diff) text selections within a file, across files, or to the clipboard
 
-- 44- [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) - Snippets that will supercharge your Vue workflow
+- 44- [JavaScript Booster](https://marketplace.visualstudio.com/items?itemName=sburg.vscode-javascript-booster) - Boost your productivity with advanced JavaScript/TypeScript refactorings and commands
 
-- 45- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+- 45- [Vue VSCode Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets) - Snippets that will supercharge your Vue workflow
 
-- 46- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode
+- 46- [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync) - Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
 
-- 47- [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) - SonarLint is an IDE extension that helps you detect and fix quality issues as you write code in JavaScript, TypeScript, Python, Java, HTML and PHP.
+- 47- [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) - Markdown Preview Enhanced ported to vscode
 
-- 48- [React PropTypes Generate](https://marketplace.visualstudio.com/items?itemName=suming.react-proptypes-generate) - Auto generate react's propTypes
+- 48- [SonarLint](https://marketplace.visualstudio.com/items?itemName=SonarSource.sonarlint-vscode) - SonarLint is an IDE extension that helps you detect and fix quality issues as you write code in JavaScript, TypeScript, Python, Java, HTML and PHP.
 
-- 49- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
+- 49- [React PropTypes Generate](https://marketplace.visualstudio.com/items?itemName=suming.react-proptypes-generate) - Auto generate react's propTypes
 
-- 50- [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines) - Sorts lines of text
+- 50- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle) - A VS Code extension that allows you to toggle the formatter (Prettier, Beautify, …) ON and OFF with a simple click.
 
-- 51- [Sort package.json](https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json) - Sort package.json
+- 51- [Sort lines](https://marketplace.visualstudio.com/items?itemName=Tyriar.sort-lines) - Sorts lines of text
 
-- 52- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
+- 52- [Sort package.json](https://marketplace.visualstudio.com/items?itemName=unional.vscode-sort-package-json) - Sort package.json
 
-- 53- [Reopen Closed Tab](https://marketplace.visualstudio.com/items?itemName=uyiosa-enabulele.reopenclosedtab) - A very light-weight extension that simply adds the classic 'Reopen Closed Editor' item to the Title Tab menu
+- 53- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Improve highlighting of errors, warnings and other language diagnostics.
 
-- 54- [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) - 💬Conventional Commits for VSCode.
+- 54- [Reopen Closed Tab](https://marketplace.visualstudio.com/items?itemName=uyiosa-enabulele.reopenclosedtab) - A very light-weight extension that simply adds the classic 'Reopen Closed Editor' item to the Title Tab menu
 
-- 55- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
+- 55- [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits) - 💬Conventional Commits for VSCode.
 
-- 56- [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) - Save files into local history
+- 56- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost) - Display import/require package size in the editor
 
-- 57- [Sort JS object keys](https://marketplace.visualstudio.com/items?itemName=zengxingxin.sort-js-object-keys) - An extension to sort the js object keys
+- 57- [Local History](https://marketplace.visualstudio.com/items?itemName=xyz.local-history) - Save files into local history
+
+- 58- [Sort JS object keys](https://marketplace.visualstudio.com/items?itemName=zengxingxin.sort-js-object-keys) - An extension to sort the js object keys
 
 ## Relevant Links
 

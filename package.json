@@ -1,6 +1,6 @@
 {
   "name": "vscode-web-developer-experience",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
   "displayName": "Web Developer Experience Pack",
@@ -65,6 +65,7 @@
     "mrmlnc.vscode-scss",
     "ms-azuretools.vscode-docker",
     "nicoespeon.abracadabra",
+    "nicoespeon.hocus-pocus",
     "octref.vetur",
     "PKief.material-icon-theme",
     "planbcoding.vscode-react-refactor",
