@@ -1,6 +1,6 @@
 {
   "name": "vscode-web-developer-experience",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "publisher": "SeyyedKhandon",
   "author": "SeyyedMahdiHassanpour",
   "displayName": "Web Developer Experience Pack",
@@ -33,7 +33,6 @@
   },
   "extensionPack": [
     "aaron-bond.better-comments",
-    "adisreyaj.sonarqube-status",
     "akamud.vscode-theme-onedark",
     "alexeyvax.vscode-open-native-terminal",
     "axetroy.vscode-static-server",
@@ -79,6 +78,7 @@
     "sdras.vue-vscode-snippets",
     "Shan.code-settings-sync",
     "shd101wyy.markdown-preview-enhanced",
+    "SonarSource.sonarlint-vscode",
     "suming.react-proptypes-generate",
     "tombonnike.vscode-status-bar-format-toggle",
     "Tyriar.sort-lines",
