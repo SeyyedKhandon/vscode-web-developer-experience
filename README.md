@@ -96,7 +96,7 @@ These are some of my favorite extensions to make web development easier.
 }
 ```
 
-`Note:` Also you maybe want to put `.vscode` into your `.gitignore` to prevent commit and push it to your git server.
+`Note:` Also you maybe want to put `.vscode` or `.vscode/settings.json` into your `.gitignore` to prevent commit and push it to your git server.
 
 Now you can rightclick on your file/folder and click `depoly` to safly deploy your desired files/folders.
 
